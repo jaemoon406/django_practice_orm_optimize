@@ -1,0 +1,16 @@
+[{
+  "model": "exchange_rate.currency",
+  "pk": "CHF",
+  "fields": {
+    "name": "Swiss franc",
+    "symbol": null
+  }
+}, {
+  "model": "exchange_rate.currency",
+  "pk": "EUR",
+  "fields": {
+    "name": "Euro",
+    "symbol": "€"
+  }
+}
+]
