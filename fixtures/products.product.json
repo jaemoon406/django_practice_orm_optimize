@@ -1,0 +1,66 @@
+[
+  {
+    "model": "products.product",
+    "fields": {
+      "name": "델몬트 바나나",
+      "price": 5000,
+      "category": 3
+    }
+  },
+  {
+    "model": "products.product",
+    "fields": {
+      "name": "그린 바나나",
+      "price": 6000,
+      "category": 3
+    }
+  },
+  {
+    "model": "products.product",
+    "fields": {
+      "name": "청송 사과",
+      "price": 10000,
+      "category": 4
+    }
+  },
+  {
+    "model": "products.product",
+    "fields": {
+      "name": "그냥 먹는 사과",
+      "price": 12000,
+      "category": 4
+    }
+  },
+  {
+    "model": "products.product",
+    "fields": {
+      "name": "미국산 소고기 등심",
+      "price": 20000,
+      "category": 5
+    }
+  },
+  {
+    "model": "products.product",
+    "fields": {
+      "name": "한우 안심",
+      "price": 30000,
+      "category": 5
+    }
+  },
+  {
+    "model": "products.product",
+    "fields": {
+      "name": "하림 닭 한마리",
+      "price": 7000,
+      "category": 6
+    }
+  },
+  {
+    "model": "products.product",
+    "fields": {
+      "name": "마니커 닭가슴살",
+      "price": 4000,
+      "category": 6
+    }
+  }
+]

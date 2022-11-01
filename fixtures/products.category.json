@@ -1,0 +1,50 @@
+[
+  {
+  "model": "products.category",
+  "pk": 1,
+  "fields": {
+    "name": "과일",
+    "parents_category": null
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 2,
+    "fields": {
+      "name": "정육",
+      "parents_category": null
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.category",
+    "fields": {
+      "name": "바나나",
+      "parents_category":1
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.category",
+    "fields": {
+      "name": "사과",
+      "parents_category":1
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.category",
+    "fields": {
+      "name": "소고기",
+      "parents_category":2
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.category",
+    "fields": {
+      "name": "닭고기",
+      "parents_category":2
+    }
+  }
+]
