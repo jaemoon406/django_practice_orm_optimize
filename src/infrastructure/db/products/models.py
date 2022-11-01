@@ -6,7 +6,7 @@ User = get_user_model()
 
 class Category(models.Model):
     name = models.CharField(max_length=15, unique=True)
-    parents_category = models.ForeignKey('self', on_delete=models.PROTECT)
+    parents_category = models.ForeignKey('self', on_delete=models.PROTECT, null=True, blank=False)
 
 
 class Product(models.Model):
@@ -23,6 +23,3 @@ class Tag(models.Model):
     product = models.ManyToManyField(Product, related_name='tag_products')
 
 
-class Cart(models.Model):
-    user = models.ManyToManyField(User)
-    product = models.ForeignKey(Product, on_delete=models.PROTECT, related_name='cart_products')

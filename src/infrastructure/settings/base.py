@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     # apps
     'src.infrastructure.db.products',
     'src.infrastructure.db.users',
+    'src.infrastructure.db.carts',
 ]
 
 if settings.DEBUG:
